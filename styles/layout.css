@@ -1,0 +1,22 @@
+.section {
+  display: flex;
+  justify-content: center;
+  padding: 110px 40px 130px;
+  text-align: center;
+}
+.column {
+  width: 100%;
+  max-width: 1100px;
+}
+header {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+.selected{
+  background-color: #8338ec;
+}

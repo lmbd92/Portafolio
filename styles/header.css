@@ -1,0 +1,38 @@
+header {
+  background-color: white;
+  padding: 25px 0;
+  box-shadow: 0 0 30px 0 lightgrey;
+  position: fixed;
+  top: 0;
+  transition: 0.4s;
+}
+
+.menu-container {
+  display: flex;
+  justify-content: flex-end;
+}
+.nav-header {
+  display: flex;
+  justify-content: flex-end;
+}
+.nav-menu {
+  display: flex;
+  margin: 0;
+}
+.nav-items {
+  margin: 0 10px;
+}
+.nav-link {
+  line-height: 2.5;
+  padding: 0 10px;
+  border-radius: 100px;
+}
+.nav-link:hover{
+    color: #8338ec;
+}
+.nav-link.selected {
+    color: white;
+    padding: 0 30px;
+  }
+
+

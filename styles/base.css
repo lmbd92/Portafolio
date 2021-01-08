@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  margin: 0;
+  height: 100%;
+}
+body {
+  font-size: 1em;
+  font-family: "Montserrat", sans-serif;
+  color: #2e2e31;
+}
+h1,
+h2,
+h3,
+h4,
+form legend {
+  color: black;
+  margin-bottom: 0.375em;
+  line-height: 1.2;
+}
+h1,
+.text--xxl {
+  font-size: 60px;
+  font-weight: 900;
+}
+p {
+  line-height: 1.4;
+}
+a {
+  text-decoration: none;
+  color: #2e2e31;
+  display: block;
+}
+button {
+  border: 0;
+  background-color: transparent;
+  font-size: 1em;
+  font-family: "Montserrat", sans-serif;
+  color: #2e2e31;
+  cursor: pointer;
+}
+.nav-link.selected,
+.button {
+  transition: 0.2s;
+}
+ul {
+  list-style: none;
+  padding: 0;
+}

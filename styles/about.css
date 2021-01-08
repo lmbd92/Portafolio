@@ -1,0 +1,48 @@
+/* About me */
+.about-section {
+  min-height: calc(100vh - 90px);
+  margin-top: 90px;
+}
+.main-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.about-info {
+  width: 100%;
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+}
+.about-saludo {
+  font-size: 30px;
+  margin-top: 0;
+  margin-bottom: 5px;
+  font-weight: 800;
+}
+.about-name {
+  margin-top: 0;
+  margin-bottom: 5px;
+  color: #8338ec;
+}
+.about-description {
+  color: #616161;
+  font-size: 16px;
+  margin-bottom: 40px;
+}
+.about-button {
+  background-color: #8338ec;
+  color: white;
+  padding: 15px 40px;
+  border-radius: 100px;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.about-img {
+  max-width: 500px;
+}
