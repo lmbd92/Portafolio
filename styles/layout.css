@@ -17,6 +17,18 @@ header {
   left: 0;
   z-index: 1;
 }
+
+.elementos{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 40px;
+}
 .selected{
   background-color: #8338ec;
+}
+.contenido-Skills {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }

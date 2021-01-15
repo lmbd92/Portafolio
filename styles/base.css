@@ -10,7 +10,7 @@ body {
   font-size: 1em;
   font-family: "Montserrat", sans-serif;
   color: #2e2e31;
-  box-shadow: inset -10px 0 30px lightgray;
+  /* box-shadow: inset -10px 0 30px lightgray; */
 }
 h1,
 h2,
@@ -26,6 +26,14 @@ h1,
   font-size: 60px;
   font-weight: 900;
 }
+
+h2,
+.text--xxl {
+  font-size: 45px;
+  font-weight: 900;
+}
+
+
 p {
   line-height: 1.4;
 }
