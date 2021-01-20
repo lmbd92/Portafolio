@@ -17,16 +17,15 @@ header {
   left: 0;
   z-index: 1;
 }
-
-.elementos{
+.elementos {
   display: flex;
   flex-wrap: wrap;
   margin-top: 40px;
 }
-.selected{
+.selected {
   background-color: #8338ec;
 }
-.contenido-Skills {
+.contenido {
   display: flex;
   flex-direction: column;
   justify-content: center;
