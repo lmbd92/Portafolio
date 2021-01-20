@@ -2,7 +2,7 @@
   background-color: #f6f7fb;
 }
 .skills-perfil {
-  max-width: 400px;
+  max-width: 600px;
 }
 
 .grilla-herramientas {
@@ -19,4 +19,32 @@
 .card:hover {
   border: 1px solid #995cef;
   color: #673ab7;
+}
+.skillIcon {
+  font-size: 4.71em;
+  margin-top: 24px;
+  margin-bottom: 20px;
+  transition: 0.3s;
+}
+.skillName {
+  font-size: 1.25em;
+  font-weight: 700;
+}
+.htmlIcon {
+  color: #e54d26;
+}
+.CssIcon {
+  color: #3d8fc6;
+}
+.SassIcon {
+  color: #c69;
+}
+.JsIcon {
+  color: #f0db4f;
+}
+.ReactIcon {
+  color: #61dafb;
+}
+.GitIcon{
+  color: #e54d26;
 }

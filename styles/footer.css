@@ -21,6 +21,7 @@ footer {
 .footer-redes-sociales {
   display: flex;
   justify-content: space-between;
+  text-align: center;
   align-items: center;
   margin: 30px 0;
 }
