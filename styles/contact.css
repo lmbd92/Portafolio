@@ -3,6 +3,8 @@
   text-align: left;
   background-color: white;
   border-radius: 15px;
+  border: 1px solid #e0e0e0;
+  padding: 80px 60px;
 }
 .contact-column {
   width: 50%;
@@ -19,5 +21,24 @@
   transition: 0.2s;
 }
 .contacto-social-item {
-  width: 50%;
+  display: flex;
+  margin: 5px 0;
+}
+.link-contacto {
+  display: flex;
+  align-items: center;
+  padding: 5px 10px;
+  border-radius: 100px;
+}
+.contacto-icon {
+  width: 2.2rem;
+  height: 2.2rem;
+  background-color: white;
+  color: #8338ec;
+  border-radius: 50%;
+  line-height: 2.2rem;
+  font-size: 1.2rem;
+  margin-right: 10px;
+  text-align: center;
+  transition: 0.2s;
 }

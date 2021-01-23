@@ -32,7 +32,7 @@ header {
 }
 .nav-link.selected {
   color: white;
-  padding: 0 30px;
+  padding: 10px 30px;
 }
 
 @media screen and (max-width: 576px) {
