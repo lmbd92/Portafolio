@@ -1,0 +1,23 @@
+.contacto {
+  display: flex;
+  text-align: left;
+  background-color: white;
+  border-radius: 15px;
+}
+.contact-column {
+  width: 50%;
+}
+.section-title {
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+.descripcion-contacto {
+  max-width: 600px;
+}
+.contacto-redes-sociales {
+  margin-top: 40px;
+  transition: 0.2s;
+}
+.contacto-social-item {
+  width: 50%;
+}
