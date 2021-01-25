@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Lina Beltran</title>
+    <title>Lina Beltrán</title>
 
     <link rel="icon" href="./images/briefcase-solid.svg" type="svg" />
 
@@ -150,7 +150,7 @@
         <div class="contacto">
           <section class="contact-column">
             <h2 class="section-title">Contáctame</h2>
-            <p>
+            <p class="descripcion">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum
               perspiciatis iusto earum pariatur, est fugit possimus placeat et
               quas suscipit magni delectus libero sed ex distinctio dicta
@@ -175,13 +175,68 @@
                 </li>
                 <li class="contacto-social-item">
                   <a href="" class="link-contacto">
-                    <i class="fas fa-envelope contacto-icon"></i>lmbd92@hotmail.com
+                    <i class="fas fa-envelope contacto-icon"></i
+                    >lmbd92@hotmail.com
                   </a>
                 </li>
               </ul>
             </section>
           </section>
-          <section class="contact-column"></section>
+          <section class="contact-column">
+            <h2 class="section-title">Escríbeme</h2>
+            <form action="" class="form-contacto">
+              <!-- OJO Pendiente construir clase en css -->
+              <div class="name-wraper">
+                <div class="control-formulario">
+                  <label for="firstName">Nombre *</label>
+                  <input
+                    type="text"
+                    name="UserName"
+                    id="firstName"
+                    class="form-firstname input-control"
+                    placeholder="Ej.: Lina"
+                    required
+                  />
+                </div>
+                <div class="control-formulario">
+                  <label for="lastName">Apellido *</label>
+                  <input
+                    type="text"
+                    name="UserLastName"
+                    id="lastName"
+                    class="form-lastname input-control"
+                    placeholder="Ej.: Beltrán"
+                    required
+                  />
+                </div>
+              </div>
+              <div class="control-formulario">
+                <label for="mail">Email *</label>
+                <input
+                  type="email"
+                  name="UserMail"
+                  id="mail"
+                  class="input-control"
+                  placeholder="Ej.: lmbd92@hotmail.com"
+                  required
+                />
+              </div>
+              <div class="control-formulario">
+                <label for="UserMessage">Mensaje *</label>
+                <textarea
+                  name="mensaje"
+                  id="UserMessage"
+                  cols="30"
+                  rows="10"
+                  class="input-control"
+                  placeholder="Escriba un mensaje Aquí"
+                  required
+                ></textarea>
+              </div>
+
+              <button></button>
+            </form>
+          </section>
         </div>
       </div>
     </section>
