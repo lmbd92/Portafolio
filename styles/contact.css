@@ -1,0 +1,70 @@
+/* Estilos de las redes sociales */
+.contacto {
+  display: flex;
+  text-align: left;
+  background-color: white;
+  border-radius: 15px;
+  border: 1px solid #e0e0e0;
+  padding: 80px 60px;
+}
+.contact-column {
+  width: 50%;
+}
+.section-title {
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+.descripcion-contacto {
+  max-width: 600px;
+}
+.contacto-redes-sociales {
+  margin-top: 40px;
+  transition: 0.2s;
+}
+.contacto-social-item {
+  display: flex;
+  margin: 5px 0;
+}
+.link-contacto {
+  display: flex;
+  align-items: center;
+  padding: 5px 10px;
+  border-radius: 100px;
+}
+.contacto-icon {
+  padding: 10px;
+  background-color: white;
+  color: #8338ec;
+  border-radius: 50%;
+  font-size: 1.2rem;
+  margin-right: 10px;
+  text-align: center;
+  transition: 0.2s;
+}
+/* cambia el color del texto del ancla al pasar por encima con el mouse */
+.link-contacto:hover {
+  color: #8338ec;
+}
+
+/* cambia el color del fondo del icono al pasar por encima con el mouse */
+.link-contacto:hover .contacto-icon {
+  background-color: #8338ec;
+  color: white;
+}
+
+/* Estilos del formulario */
+
+.name-wraper {
+  /* Div contenedor */
+  display: flex;
+}
+.control-formulario {
+  margin-bottom: 15px;
+  flex-grow: 1; /* t.ly/aTnO*/
+  position: relative;
+}
+label {
+  margin-bottom: 10px;
+  font-weight: 600;
+  margin-top: 5px;
+}

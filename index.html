@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Lina Beltran</title>
+    <title>Lina Beltrán</title>
 
     <link rel="icon" href="./images/briefcase-solid.svg" type="svg" />
 
@@ -23,7 +23,7 @@
       preload
     />
 
-    <!-- ##### Styles ##### -->
+    <!-- ## Styles ## -->
     <link rel="stylesheet" href="styles/base.css" preload />
     <link rel="stylesheet" href="styles/layout.css" preload />
     <link rel="stylesheet" href="styles/header.css" preload />
@@ -40,7 +40,7 @@
     ></script>
   </head>
   <body>
-    <!-- ##### Comienzo Header ##### -->
+    <!-- ## Comienzo Header ## -->
     <header>
       <div class="column menu-container">
         <nav class="nav-header">
@@ -60,9 +60,9 @@
         <!--Acá va un button OJO-->
       </div>
     </header>
-    <!-- ##### Fin Header ##### -->
+    <!-- ## Fin Header ## -->
 
-    <!-- ##### Comienzo Sección Sobre mí ##### -->
+    <!-- ## Comienzo Sección Sobre mí ## -->
     <section class="section about-section">
       <div class="column main-content">
         <div class="about-info">
@@ -74,16 +74,12 @@
           </p>
           <a href="#projects" class="about-button">LO QUE HAGO</a>
         </div>
-        <img
-          src="./images/software-engineer.svg"
-          alt="software engineer"
-          class="about-img"
-        />
+        <div class="imagen"></div>
       </div>
     </section>
-    <!-- ##### Fin Sección Sobre mí ##### -->
+    <!-- ## Fin Sección Sobre mí ## -->
 
-    <!-- ##### Comienzo Sección conocimientos ##### -->
+    <!-- ## Comienzo Sección conocimientos ## -->
     <section class="section skills">
       <div class="column contenido">
         <h2>Mis conocimientos</h2>
@@ -96,7 +92,7 @@
           <strong>comunicación, interpersonales y de coordinación</strong>.
           Conocimientos notables en React y GIT lo que me permite ser
           <strong> eficiente, ordenada y creativa </strong>en los proyectos que
-          emprendo
+          emprendo.
         </p>
         <div class="elementos grilla-herramientas">
           <div class="card">
@@ -126,9 +122,9 @@
         </div>
       </div>
     </section>
-    <!-- ##### Fin Sección conocimientos ##### -->
+    <!-- ## Fin Sección conocimientos ## -->
 
-    <!-- ##### Comienzo Sección cita ##### -->
+    <!-- ## Comienzo Sección cita ## -->
     <section class="section cita">
       <div class="column contenido">
         <i class="fas fa-quote-right IconoCita"></i>
@@ -143,9 +139,110 @@
         <h2 class="autor">[Gabo]</h2>
       </div>
     </section>
-    <!-- ##### Fin Sección cita ##### -->
+    <!-- ## Fin Sección cita ## -->
 
-    <!-- ##### Comienzo footer ##### -->
+    <!-- ## Comienzo Sección mis proyectos ## -->
+    <!-- ## Fin Sección mis proyectos ## -->
+
+    <!-- ## Comienzo Sección contacto ## -->
+    <section class="section">
+      <div class="column">
+        <div class="contacto">
+          <section class="contact-column">
+            <h2 class="section-title">Contáctame</h2>
+            <p class="descripcion">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum
+              perspiciatis iusto earum pariatur, est fugit possimus placeat et
+              quas suscipit magni delectus libero sed ex distinctio dicta
+              quidem. Inventore, voluptatum.
+            </p>
+            <section>
+              <ul class="contacto-redes-sociales">
+                <li class="contacto-social-item">
+                  <a href="" class="link-contacto">
+                    <i class="fab fa-twitter contacto-icon"></i>@linalunera92
+                  </a>
+                </li>
+                <li class="contacto-social-item">
+                  <a href="" class="link-contacto">
+                    <i class="fab fa-github contacto-icon"></i>lmbd92
+                  </a>
+                </li>
+                <li class="contacto-social-item">
+                  <a href="" class="link-contacto">
+                    <i class="fab fa-linkedin-in contacto-icon"></i>lmbd9203
+                  </a>
+                </li>
+                <li class="contacto-social-item">
+                  <a href="" class="link-contacto">
+                    <i class="fas fa-envelope contacto-icon"></i
+                    >lmbd92@hotmail.com
+                  </a>
+                </li>
+              </ul>
+            </section>
+          </section>
+          <section class="contact-column">
+            <h2 class="section-title">Escríbeme</h2>
+            <form action="" class="form-contacto">
+              <!-- OJO Pendiente construir clase en css -->
+              <div class="name-wraper">
+                <div class="control-formulario">
+                  <label for="firstName">Nombre *</label>
+                  <input
+                    type="text"
+                    name="UserName"
+                    id="firstName"
+                    class="form-firstname input-control"
+                    placeholder="Ej.: Lina"
+                    required
+                  />
+                </div>
+                <div class="control-formulario">
+                  <label for="lastName">Apellido *</label>
+                  <input
+                    type="text"
+                    name="UserLastName"
+                    id="lastName"
+                    class="form-lastname input-control"
+                    placeholder="Ej.: Beltrán"
+                    required
+                  />
+                </div>
+              </div>
+              <div class="control-formulario">
+                <label for="mail">Email *</label>
+                <input
+                  type="email"
+                  name="UserMail"
+                  id="mail"
+                  class="input-control"
+                  placeholder="Ej.: lmbd92@hotmail.com"
+                  required
+                />
+              </div>
+              <div class="control-formulario">
+                <label for="UserMessage">Mensaje *</label>
+                <textarea
+                  name="mensaje"
+                  id="UserMessage"
+                  cols="30"
+                  rows="10"
+                  class="input-control"
+                  placeholder="Escriba un mensaje Aquí"
+                  required
+                ></textarea>
+              </div>
+
+              <button></button>
+            </form>
+          </section>
+        </div>
+      </div>
+    </section>
+    <!-- ## Fin Sección contacto ## -->
+
+    <!-- ## Comienzo footer ## -->
     <footer>
       <!-- Menú footer -->
       <nav class="nav-footer">
@@ -168,7 +265,7 @@
       <!--  Redes Sociales Footer -->
 
       <ul class="footer-redes-sociales">
-        <li class="">
+        <li class=" ">
           <a href="" class="footer-social-link"
             ><i class="fab fa-twitter footer-social-icon"></i
           ></a>
@@ -191,6 +288,6 @@
       </ul>
       Hecho con ❤️ por @lmbd9203
     </footer>
-    <!-- ##### Fin footer ##### -->
+    <!-- ## Fin footer ## -->
   </body>
 </html>

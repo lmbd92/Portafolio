@@ -30,16 +30,15 @@ footer {
   border-radius: 50%;
   width: 2.7rem;
   margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .footer-social-icon {
-  display: block;
-  width: 2.7rem;
-  height: 2.7rem;
+  padding: 15px;
   background-color: white;
   color: #8338ec;
   border-radius: 50%;
   font-size: 1.2rem;
-  line-height: 2.7rem;
-  text-align: center;
   transition: 0.1s;
 }

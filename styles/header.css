@@ -27,12 +27,16 @@ header {
   padding: 0 10px;
   border-radius: 100px;
 }
-.nav-link:hover{
-    color: #8338ec;
+.nav-link:hover {
+  color: #8338ec;
 }
 .nav-link.selected {
-    color: white;
-    padding: 0 30px;
+  color: white;
+  padding: 10px 30px;
+}
+
+@media screen and (max-width: 576px) {
+  header {
+    display: none;
   }
-
-
+}
