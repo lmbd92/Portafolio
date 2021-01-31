@@ -15,7 +15,7 @@ h1,
 h2,
 h3,
 h4,
-form legend {
+form{
   color: black;
   margin-bottom: 0.375em;
   line-height: 1.2;
@@ -52,4 +52,8 @@ ul {
 }
 .descripcion {
   max-width: 400px;
+}
+img{
+  display: block;
+  width: 100%;
 }
