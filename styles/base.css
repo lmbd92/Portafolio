@@ -42,14 +42,6 @@ a {
 a:focus {
   outline: 10px;
 }
-button {
-  border: 0;
-  background-color: transparent;
-  font-size: 1em;
-  font-family: "Montserrat", sans-serif;
-  color: #2e2e31;
-  cursor: pointer;
-}
 .nav-link.selected,
 .button {
   transition: 0.2s;
