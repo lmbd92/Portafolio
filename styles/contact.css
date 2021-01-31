@@ -65,14 +65,14 @@
   display: flex;
 }
 .control-formulario {
-  margin-bottom: 15px;
+  margin: 15px 10px;
   flex-grow: 1; /* t.ly/aTnO*/
   position: relative;
 }
 label {
-  margin-bottom: 10px;
+  margin: 10px 0px;
+  display: block;
   font-weight: 600;
-  margin-top: 5px;
 }
 input,
 textarea {
@@ -89,7 +89,7 @@ textarea {
 input:focus,
 textarea:focus,
 button:focus,
-a:focus{
+a:focus {
   box-shadow: 0px 0px 7px #8338ec;
   outline: 0;
 }
@@ -105,4 +105,33 @@ button {
   align-items: center;
   color: white;
   cursor: pointer;
+}
+input:valid:focus,
+textarea:valid:focus {
+  box-shadow: 0px 0px 5px green;
+}
+input:invalid:not(:placeholder-shown):focus,
+textarea:invalid:not(:placeholder-shown):focus {
+  box-shadow: 0px 0px 5px red;
+}
+.icon-invalid,
+.icon-valid {
+  display: none;
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  transform: translateY(50%);
+}
+.icon-invalid {
+  color: red;
+}
+.icon-valid {
+  color: green;
+}
+
+input:valid ~ .icon-valid,
+textarea:valid ~ .icon-valid,
+input:not(:placeholder-shown):invalid ~ .icon-invalid,
+textarea:not(:placeholder-shown):invalid ~ .icon-invalid {
+  display: block;
 }
