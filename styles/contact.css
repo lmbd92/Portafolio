@@ -10,6 +10,12 @@
 .contact-column {
   width: 50%;
 }
+.contact-column:first-of-type {
+  padding-right: 20px;
+}
+.contact-column:last-of-type {
+  padding-left: 20px;
+}
 .section-title {
   margin-top: 0;
   margin-bottom: 30px;
@@ -67,4 +73,36 @@ label {
   margin-bottom: 10px;
   font-weight: 600;
   margin-top: 5px;
+}
+input,
+textarea {
+  display: block;
+  border: 0;
+  background-color: #f6f7fb;
+  border-radius: 20px;
+  border: 1px solid #f6f7fb;
+  padding: 10px 15px;
+  width: 100%;
+  outline: none;
+}
+
+input:focus,
+textarea:focus,
+button:focus,
+a:focus{
+  box-shadow: 0px 0px 7px #8338ec;
+  outline: 0;
+}
+button {
+  background-color: #8338ec;
+  padding: 15px 40px;
+  border-radius: 100px;
+  border: 0;
+  font-size: 1.2rem;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  cursor: pointer;
 }
