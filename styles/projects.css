@@ -1,0 +1,24 @@
+.proyectos {
+  width: 100%;
+}
+.tarjeta {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.project {
+  width: calc(100% / 3 - (0.75em * 2));
+  margin: 00.75em;
+  border: 1px solid lightgrey;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.project:hover{
+    border: 1px solid #673ab7;
+    color: #673ab7;
+}
+.Nombre-proyecto {
+  font-weight: 600;
+  margin-top: 20px;
+}

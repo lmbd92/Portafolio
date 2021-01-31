@@ -7,6 +7,10 @@
   border: 1px solid #e0e0e0;
   padding: 80px 60px;
 }
+
+.fondo {
+  background-color: #f6f7fb;
+}
 .contact-column {
   width: 50%;
 }
