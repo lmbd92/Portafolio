@@ -50,9 +50,6 @@ ul {
   list-style: none;
   padding: 0;
 }
-.descripcion {
-  max-width: 400px;
-}
 img{
   display: block;
   width: 100%;
