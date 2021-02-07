@@ -31,3 +31,12 @@ header {
   justify-content: center;
   align-items: center;
 }
+
+@media screen and (max-width: 576px) {
+  .section {
+    padding: 80px 20px;
+  }
+  .column{
+    max-width: 100%;
+  }
+}

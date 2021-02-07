@@ -24,8 +24,8 @@
   margin-top: 0;
   margin-bottom: 30px;
 }
-.descripcion-contacto {
-  max-width: 600px;
+.descripcion {
+  max-width: 400px;
 }
 .contacto-redes-sociales {
   margin-top: 40px;
@@ -138,4 +138,30 @@ textarea:valid ~ .icon-valid,
 input:not(:placeholder-shown):invalid ~ .icon-invalid,
 textarea:not(:placeholder-shown):invalid ~ .icon-invalid {
   display: block;
+}
+
+@media screen and (max-width: 576px) {
+  .contacto {
+    display: block;
+    flex-direction: column;
+    padding: 0 20px 40px;
+    border: 0;
+  }
+  .fondo {
+    background-color: white;
+  }
+  .descripcion {
+    max-width: 600px;
+  }
+  .contact-column {
+    width: 100%;
+    margin-bottom: 40px;
+  }
+  .contacto-redes-sociales {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .contacto-social-item {
+    width: 50%;
+  }
 }

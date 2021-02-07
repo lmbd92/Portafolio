@@ -16,3 +16,12 @@
   color: white;
   margin-bottom: 0;
 }
+
+@media screen and (max-width: 576px) {
+  .texto{
+    font-size: 1.5rem;
+  }
+  .IconoCita{
+    font-size: 2rem;
+  }
+}
