@@ -23,6 +23,11 @@
   margin-top: 20px;
 }
 
+.tamanioImg{
+  width: auto; 
+  height: 180px;
+}
+
 @media screen and (max-width: 576px) {
   .project {
     width: calc(100% / 2 - (0.75em * 2));
