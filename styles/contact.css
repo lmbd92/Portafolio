@@ -110,14 +110,27 @@ button {
   color: white;
   cursor: pointer;
 }
+
 input:valid:focus,
 textarea:valid:focus {
-  box-shadow: 0px 0px 5px green;
+  box-shadow: 0px 0px 5px #88c459;
 }
+
 input:invalid:not(:placeholder-shown):focus,
 textarea:invalid:not(:placeholder-shown):focus {
-  box-shadow: 0px 0px 5px red;
+  box-shadow: 0px 0px 5px #f5414f;
 }
+
+input:invalid:not(:placeholder-shown),
+textarea:invalid:not(:placeholder-shown) {
+  border: 1px solid #f5414f;
+}
+
+input:valid,
+textarea:valid {
+  border: 1px solid #88c459;
+}
+
 .icon-invalid,
 .icon-valid {
   display: none;
